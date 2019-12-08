@@ -48,8 +48,6 @@ struct Name: Decodable {
     let last: String?
 }
 
-
-
 class NetworkManager {
     
     static func fetchPage(_ path: String? = nil, completionHandler: @escaping (CatalogPage) -> Void) {

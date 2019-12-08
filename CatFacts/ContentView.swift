@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @State private var fact: String = ""
     @State var allPages = [Item]()
     
@@ -106,7 +107,6 @@ struct ItemView: View {
                     .padding()
             }
         }
-        
     }
 }
 
