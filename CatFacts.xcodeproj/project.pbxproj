@@ -13,6 +13,7 @@
 		1DABBB3B239CF31300E1C562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DABBB3A239CF31300E1C562 /* Assets.xcassets */; };
 		1DABBB3E239CF31300E1C562 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DABBB3D239CF31300E1C562 /* Preview Assets.xcassets */; };
 		1DABBB41239CF31300E1C562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DABBB3F239CF31300E1C562 /* LaunchScreen.storyboard */; };
+		1DABBB49239CF39600E1C562 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DABBB48239CF39600E1C562 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1DABBB3D239CF31300E1C562 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DABBB40239CF31300E1C562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DABBB42239CF31300E1C562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DABBB48239CF39600E1C562 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1DABBB34239CF30F00E1C562 /* AppDelegate.swift */,
 				1DABBB36239CF30F00E1C562 /* SceneDelegate.swift */,
 				1DABBB38239CF30F00E1C562 /* ContentView.swift */,
+				1DABBB48239CF39600E1C562 /* NetworkManager.swift */,
 				1DABBB3A239CF31300E1C562 /* Assets.xcassets */,
 				1DABBB3F239CF31300E1C562 /* LaunchScreen.storyboard */,
 				1DABBB42239CF31300E1C562 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DABBB49239CF39600E1C562 /* NetworkManager.swift in Sources */,
 				1DABBB35239CF30F00E1C562 /* AppDelegate.swift in Sources */,
 				1DABBB37239CF30F00E1C562 /* SceneDelegate.swift in Sources */,
 				1DABBB39239CF30F00E1C562 /* ContentView.swift in Sources */,
