@@ -14,7 +14,13 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
+
             VStack {
+                Image("app-logo")
+                    .resizable()
+                    .frame(width: 300, height: 200)
+                    .scaledToFit()
+                    .padding(.top)
                 Spacer()
                 Text(self.fact)
                     .font(.title)
@@ -50,10 +56,22 @@ struct ContentView: View {
                 Image(systemName: "list.bullet.below.rectangle")
                     .resizable()
                     .font(.title)
+                    .shadow(color: Color.blue, radius: 25, x: 2, y: 2)
             }
             .onAppear() {
                 self.loadAllPages()
             }
+            ZStack {
+                Loading()
+                VStack {
+                    WebView(url: "https://cat-fact.herokuapp.com/#/cat/facts")
+                }
+            }
+            .tabItem({
+                Image(systemName: "safari")
+                    .resizable()
+                    .font(.title)
+            })
         }
     }
     
@@ -89,6 +107,12 @@ struct ItemView: View {
             }
         }
         
+    }
+}
+
+struct Loading: View {
+    var body: some View {
+        Text("loading...")
     }
 }
 
